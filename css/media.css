@@ -1,0 +1,151 @@
+ /**Extra small devices (portrait phones, less than 576px)**/
+
+ @media (max-width: 575.98px) {
+ 	/*	header style start*/
+ 	.icon2 {
+ 		float: right;
+ 		border-left: 1px solid #e2e2e2;
+ 		padding: 0px 0px 0px 2px;
+ 	}
+ 	.icon1 {
+ 		padding: 10px 0px;
+ 		text-align: center;
+ 		margin-right: -14px;
+ 	}
+ 	/*	header style start*/
+ 	/*manubar start*/
+ 	.cust_log {
+ 		width: 30%;
+ 	}
+ 	.log_cus {
+ 		width: 185%;
+ 	}
+ 	.cus_cir {
+ 		/* font-size: 7px; */
+ 		/* padding: 18px 10px; */
+ 		display: none !important;
+ 	}
+
+ 	.btn-custom {
+ 		margin-right: -5px;
+ 		margin-left: 0px;
+ 	}
+ 	/*manubar end*/
+ }
+
+ /**Small devices (landscape phones, 576px and up)**/
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+ 	/*	header style start*/
+ 	.icon2 {
+ 		float: right;
+ 		border-left: 1px solid #e2e2e2;
+ 		padding: 0px 15px 10px 40px;
+ 	}
+ 	.icon1 {
+ 		padding: 10px 0px;
+ 		text-align: center;
+ 		margin-right: -14px;
+ 	}
+ 	/*	header style start*/
+ 	/*manubar start*/
+ 	.cust_log {
+ 		width: 30%;
+ 	}
+ 	.log_cus {
+ 		width: 185%;
+ 	}
+ 	.cus_cir {
+ 		/* font-size: 7px; */
+ 		/* padding: 18px 10px; */
+ 		display: none !important;
+ 	}
+
+ 	.btn-custom {
+ 		margin-right: -5px;
+ 		margin-left: 0px;
+ 	}
+ 	/*manubar end*/
+ }
+
+ /**Medium devices (tablets, 768px and up)**/
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+ 	/*header style start*/
+ 	header {
+ 		background-color: #f0f2f4;
+ 		font-family: Helvetica Compressed;
+ 		border-bottom: 1px solid #e2e2e2;
+ 	}
+
+ 	.icon2 {
+ 		padding: 7px 12px 15px 14px;
+ 		float: right;
+ 		border-left: 1px solid #e2e2e2;
+ 	}
+
+ 	.icon1 {
+ 		padding: 16px 0px;
+ 		text-align: center;
+ 		margin-right: -60px;
+ 	}
+
+ 	.icon1 .list-inline {
+ 		margin: 0;
+ 	}
+
+ 	.icon2 .list-inline {
+ 		margin: 0;
+ 	}
+
+ 	.fab {
+ 		font-family: "Font Awesome 5 Brands";
+ 		background-color: #e7e7f3;
+ 		color: #145ce0;
+ 		font-size: 30px;
+ 	}
+
+ 	/*header style end*/
+ 	/*manuvar style start*/
+ 	.cus_cir {
+ 		font-size: 7px;
+ 		padding: 18px 10px;
+ 	}
+
+ 	#active {
+ 		color: red;
+ 	}
+
+ 	.manubar {
+ 		padding: 30px 0px;
+ 		font-family: Helvetica Black Cyrillic Bold;
+ 		font-weight: bold;
+ 	}
+
+ 	.btn-custom {
+ 		margin-right: -5px;
+ 		margin-left: 20px;
+ 	}
+
+ 	/*manuvar style end*/
+ }
+
+ /**Large devices (desktops, 992px and up)**/
+
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+ 	.icon1 {
+ 		padding: 16px 0px;
+ 		text-align: center;
+ 		margin-right: -172px;
+ 	}
+ }
+
+ /**Extra large devices (large desktops, 1200px and up)**/
+
+ @media (min-width: 1200px) {
+ 	.icon1 {
+ 		padding: 16px 0px;
+ 		text-align: center;
+ 		margin-right: -320px;
+ 	}
+ }
